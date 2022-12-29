@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;  
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    border:3px solid black;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    font-size: 2.6rem;
+    border:1px solid blue;
+    background-color: aliceblue;
+}
+li{
+    border:1px solid blue;
+    margin:2px 0px;
+    background-color: pink;
+}
+
+h1{
+    border:1px solid blue;
+    font-size: 3.6rem;
+    background-color: aliceblue;
+}
+
