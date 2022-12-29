@@ -1,2 +1,2 @@
-const container = document.getElementById('.container')
-console.log(container)
+const paragraphs = document.getElementsByTagName("li");
+console.log(paragraphs)
