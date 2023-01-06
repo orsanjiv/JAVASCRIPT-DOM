@@ -1,1 +1,1 @@
-alert("hi")
+console.log(doc.title)
