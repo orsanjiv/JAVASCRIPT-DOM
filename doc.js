@@ -1,1 +1,1 @@
-console.log(doc.title)
+console.log(document.URL);
