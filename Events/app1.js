@@ -11,8 +11,11 @@ newLi.id = 'unique-li';
 newLi.innerHTML = 'PUBGM IS BEST';
 
 // adding this list item in html code 
-let ul = document.querySelector('ul');
+let ul = document.querySelector('ul.this');
 ul.appendChild(newLi)
+
+// replaceChild(element,doc.id/class('.#element'))
+// removeChild()
 
 
 
