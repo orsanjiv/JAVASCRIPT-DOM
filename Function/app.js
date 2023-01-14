@@ -1,4 +1,1 @@
-(function(){
-    console.log("hello")
-    alert("self invoking function is called");
-})();
+alert("js is working");

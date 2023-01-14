@@ -50,6 +50,6 @@ let arr = [
 ];
 
 let newArr = arr.filter(val => val.Position="developer");
-console.log(newArr)
+console.log(newArr);
 
 
