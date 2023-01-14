@@ -1,24 +1,33 @@
-// we can pass function as an argument
-
-function sayHi(){
-    console.log("hi");
+// Normal Function Declaration
+function random(){
+    return Math.random();
 }
+console.log(random());
 
-function sayHello(){
-    console.log("hello");
-}
+// arrow function
 
-function add(a,b,callback){
-    console.log(a+b);
-    callback();
-}
+// 1.)    let random2 = () => {
+//         return Math.random();
+//         }
 
-var a = 10;
-var b = 12;
+//         console.log(random2());
 
-add(a,b,sayHello)
-add(a,b,sayHi)
 
-add(a,b,function(){
-    console.log("bye bye");
-})
+// Different way to declare arrow function
+
+
+//  2.)       let random2 = () => Math.random();
+
+//            console.log(random2());
+
+//  3.)       let random2 = a => a*a;
+//            alert(random2(7));
+
+// 4.)        document.addEventListener('click' , function(){
+//            console.log("clicked");
+//             })
+
+//  5.)       document.addEventListener('click' , () =>{
+//             console.log("clicked");
+//            })
+
