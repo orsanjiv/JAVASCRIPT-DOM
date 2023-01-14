@@ -1,4 +1,9 @@
+// (function(parameter){
+//     //code
+// })(arguments);
+
+
 (function(){
     console.log("hello");
-    console.alert("self invoking function is called");
+    alert("self invoking function is called");
 })();
